@@ -1,0 +1,60 @@
+body{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    
+    margin: 150px;
+    padding-top: 20px;
+
+    background-color: rgb(233, 230, 230);
+}
+div{
+    box-sizing: border-box;
+   border:5px solid rgb(0, 110, 9);
+   text-align: center;
+   margin: 50px;
+   padding: 20px;
+   font-family: sans-serif;
+   background-color: lightgreen;
+    border-radius: 20px;
+
+}
+.a,.b,.c,.e,.f,.z,.y,.w{
+    padding: 5px;
+    margin: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="text"],
+
+input[type="number"],
+input[type="date"],
+input[type="password"]{
+    border: none;
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    height: 22px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: limegreen;
+}
+
+.h{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+fieldset {
+    border-radius: 15px;
+    border: 2px solid;
+  }

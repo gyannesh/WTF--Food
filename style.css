@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    text-align: justify;
+    
+}
+.orange-color{
+    color: orange;
+}
+.gray-color{
+    color: #575757;
+    padding-top: 70px;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 40px;
+}
+h6{
+    font-size: 30px;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(orange,rgb(255, 123, 0));
+    color: wheat;
+    font-weight: 700;
+}
+
+.flexible-container{
+    display: flex;
+    padding-bottom: 150px;
+}
+.padding{
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+#img-size{
+    width: 40%;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#my-recipies{
+    text-align: center;
+    color: #51545a;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px; 
+      
+
+}
+.main img{
+    width: 95%;
+    padding: 10px 10px 10px 8px;
+    border-radius: 8%;
+ 
+}
+footer{
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.footer-color{
+    color: #5B5B5B;
+}
+.text-padding{
+    padding: 10px;
+}
+.background{
+    background-image: url(./images/shapes/back2.jpg);
+    background-repeat: no-repeat;
+    color: #575757;
+    text-align: right;
+    height: 300px;
+    margin-bottom: 150px;
+    width: 90%;
+    margin-left: 4%;
+    padding-right: 2%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.like-section{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 10%;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 150px;
+}
+.like-section2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+div.bar{
+    margin: 400px;
+}
+
+div.third .i:hover{
+    transform: scale(1.1);
+    transition: transform .1s;
+    
+}
+div.second .h:hover{
+    transform: scale(1.1);
+    transition: transform .1s;
+    
+}
+div.forth .j:hover{
+    transform: scale(1.1);
+    transition: transform .1s;
+    
+}
+div.fifth .k:hover{
+    transform: scale(1.1);
+    transition: transform .1s;
+    
+}
